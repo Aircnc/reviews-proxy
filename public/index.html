@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100|Source+Sans+Pro:200" rel="stylesheet">
+    <script src="./lib/react.development.js"></script>
+    <script src="./lib/react-dom.development.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Hopping Couch</title>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="navbar" id="nav">Nav Bar</div>
+        <div class="images-container"><div id="luan">Images - Luan Part</div></div>
+    </div>
+    <div class="main-content-container">
+        <div class="desc-container"><div id="description">Description - Blake Part</div></div>
+        <div class="booking-container"><div id="booking">Booking - Alice Part</div></div>
+        <div class="availability" id="alice2">Availability - Alice Part</div>
+        <div class="reviews-container"><div id="reviews">Reviews - Wilson Part</div></div>
+    </div>
+
+    <script src="http://localhost:3001/aval.bundle.js"></script>
+    <script src="http://localhost:3002/dist/description.bundle.js"></script>
+    <script src="http://localhost:3003/bundle.js"></script>
+    <script src="http://localhost:3004/review.bundle.js"></script>
+    <script>
+      ReactDOM.render(
+          React.createElement(window.Booking),
+          document.getElementById('booking')
+        );
+    </script>
+</body>
+</html>

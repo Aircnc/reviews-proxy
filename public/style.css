@@ -1,0 +1,55 @@
+.navbar { grid-area: navbar; }
+.images {grid-area: image;}
+/*.desc { grid-area: desc; }*/
+.booking-container {
+  grid-area: book;
+}
+#booking {
+  position: sticky;
+  top: 30px;
+}
+.desc-container {
+  grid-area: desc;
+  width: 650px;
+  padding: 20px;
+}
+.availability {
+  grid-area: avail;
+}
+.reviews-container {
+  grid-area: reviews;
+  width: 650px;
+  padding: 20px;
+}
+.images-container {
+  grid-area: image;
+  width: auto;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'navbar navbar navbar navbar navbar navbar'
+    'image image image image image image';
+  grid-template-rows: auto;  
+  grid-gap: 5px;
+  padding: 1px;
+}
+.grid-container > div {
+  background-color: aliceblue;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.main-content-container {
+    width: 80%;
+    padding-top: 25px;
+    display: grid;
+    grid-template-areas:    
+      '. desc desc desc book book .'
+      '. aval aval aval book book .'
+      '. reviews reviews reviews book book .';
+    grid-template-rows: auto; 
+    height: auto;
+    grid-gap: 10px;
+    margin: 0 auto;
+}
