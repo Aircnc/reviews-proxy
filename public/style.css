@@ -1,5 +1,8 @@
+body {
+  margin: 0;
+}
 .navbar { grid-area: navbar; }
-.images {grid-area: image;}
+/*.images {grid-area: image;}*/
 /*.desc { grid-area: desc; }*/
 .booking-container {
   grid-area: book;
@@ -23,7 +26,7 @@
 }
 .images-container {
   grid-area: image;
-  width: auto;
+  width: 100%;
 }
 .grid-container {
   display: grid;
@@ -32,7 +35,7 @@
     'image image image image image image';
   grid-template-rows: auto;  
   grid-gap: 5px;
-  padding: 1px;
+  padding: 0;
 }
 .grid-container > div {
   background-color: aliceblue;
