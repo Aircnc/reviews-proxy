@@ -1,9 +1,13 @@
 body {
   margin: 0;
 }
-.navbar { grid-area: navbar; }
+/*.navbar { grid-area: navbar; }*/
 /*.images {grid-area: image;}*/
 /*.desc { grid-area: desc; }*/
+.navbar-container {
+  grid-area: navbar;
+  display: flex;
+}
 .booking-container {
   grid-area: book;
 }
@@ -40,8 +44,8 @@ body {
 .grid-container > div {
   background-color: aliceblue;
   text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
+  padding: 10px 0;
+  font-size: 15px;
 }
 .main-content-container {
     width: 80%;
