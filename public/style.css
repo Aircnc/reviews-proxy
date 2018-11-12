@@ -6,7 +6,6 @@ body {
 /*.desc { grid-area: desc; }*/
 .navbar-container {
   grid-area: navbar;
-  display: flex;
 }
 .booking-container {
   grid-area: book;
@@ -60,3 +59,45 @@ body {
     grid-gap: 10px;
     margin: 0 auto;
 }
+
+
+
+/*nav bar css*/
+/*.navbar {
+      width: 100%;
+}
+
+.nav-container {
+  display: flex;
+}
+
+.logo {
+      height: 3em;
+    width: 3em;
+    display: block;
+    fill: rgb(255, 92, 97);
+    margin: 0px 20px;
+}
+
+.ui big input search{
+      width: 35%;
+}
+
+.nav-right {
+  display: flex;
+    margin-left: auto;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+.rectangle {
+    margin: auto 15px;
+}
+
+.avatar {
+  margin-right: 10px;
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}*/
